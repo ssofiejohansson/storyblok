@@ -3,16 +3,14 @@ defineProps({ blok: Object })
 </script>
 
 <template>
-  <div class="teaser">
-    <h2 class="font-bold text-4xl mb-4">{{ blok.headline }}</h2>
-  </div>
+  <section class="p-24 bg-gray-900 text-white">
+    <h1 class="text-5xl font-bold">
+      {{ blok.headline }}
+    </h1>
+  </section>
 </template>
 
 <style scoped>
-.teaser {
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
+
+
 </style>
