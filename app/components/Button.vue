@@ -1,0 +1,3 @@
+<template>
+    <!-- Button component -->
+</template>
